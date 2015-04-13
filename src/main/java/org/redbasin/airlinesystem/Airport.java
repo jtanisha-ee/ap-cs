@@ -1,4 +1,7 @@
 
+/**
+ * This is for example SFO or San Francisco International Airport.
+ */
 public class Airport {
 
    private String airportName;

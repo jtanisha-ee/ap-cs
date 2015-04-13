@@ -1,4 +1,7 @@
 
+/**
+ * For example the Singapore Airlines is an Airline object.
+ */
 public class Airline {
 
    private String airlineName;
