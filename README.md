@@ -1,5 +1,5 @@
 AP Computer Science Java Programming
-=====
+========
 
 Welcome to the AP computer science java programming course. We will write examples in
 class that we will commit to github. So students can check these out, and be able to
