@@ -1,3 +1,5 @@
+package org.redbasin.airlinesystem;
+
 
 /**
  * This is a specific flight operated by an Airline.

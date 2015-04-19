@@ -1,3 +1,4 @@
+package org.redbasin.airlinesystem;
 
 /**
  * This is for example SFO or San Francisco International Airport.

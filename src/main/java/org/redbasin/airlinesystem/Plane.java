@@ -1,3 +1,5 @@
+package org.redbasin.airlinesystem;
+
 
 /**
  * This is a specific model construction by Boeing, Airbus

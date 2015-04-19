@@ -1,3 +1,4 @@
+package org.redbasin.airlinesystem;
 
 /**
  * For example the Singapore Airlines is an Airline object.

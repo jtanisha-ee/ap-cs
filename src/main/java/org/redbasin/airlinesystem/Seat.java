@@ -1,3 +1,4 @@
+package org.redbasin.airlinesystem;
 
 public class Seat {
 
