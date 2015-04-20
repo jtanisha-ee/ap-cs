@@ -7,18 +7,34 @@ package org.redbasin.airlinesystem;
  */
 public class Plane {
 
-   private String modelNo;
-   private String manufacturerName;
-   private Row[] rows;
-   private Seat[] seats;
+  private String modelNo;
+  private String manufacturerName;
+  private int numRows;
+  private int numSeats;
 
-   /**
-    * This is constructor for plane.
-    */
-   public Plane(String manufacturerName, String modelNo, Row[] rows, Seat[] seats) {
-     this.manufacturerName = manufacturerName;
-     this.modelNo = modelNo;
-     this.rows = rows;
-     this.seats = seats;
-   }
+  public int getNumSeats() {
+    return numSeats;
+  }
+
+  public String getModelNo() {
+    return modelNo;
+  }
+
+  public String getManufacturerName() {
+    return manufacturerName;
+  }
+
+  public int getNumRows() {
+    return numRows;
+  }
+
+  /**
+   * This is constructor for plane.
+   */
+  public Plane(String manufacturerName, String modelNo, int numRows, int numSeats) {
+    this.manufacturerName = manufacturerName;
+    this.modelNo = modelNo;
+    this.numRows = numRows;
+    this.numSeats = numSeats;
+  }
 }
