@@ -1,3 +1,9 @@
+/*
+ * Copyright (C) Tanisha  - All Rights Reserved.
+ * Unauthorized copying of this file, via any medium is strictly prohibited.
+ * Proprietary and confidential.
+ */
+
 package org.redbasin.classwork4;
 /**
  * 1. Generate an array of 20 random numbers between 1

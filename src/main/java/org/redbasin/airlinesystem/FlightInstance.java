@@ -1,3 +1,9 @@
+/*
+ * Copyright (C) Tanisha  - All Rights Reserved.
+ * Unauthorized copying of this file, via any medium is strictly prohibited.
+ * Proprietary and confidential.
+ */
+
 package org.redbasin.airlinesystem;
 
 
@@ -6,7 +12,7 @@ package org.redbasin.airlinesystem;
  * from gate no 62 from SFO source airport and going to
  * Denver airport.
  */
-public class FlightSchedule {
+public class FlightInstance {
 
   private Airport sourceAirport;
   private Airport destAirport;
@@ -20,7 +26,7 @@ public class FlightSchedule {
   /**
    * This is constructor for flight schedule.
    */
-  public FlightSchedule(
+  public FlightInstance(
       Flight flight,
       Airport sourceAirport,
       Airport destAirport,
@@ -51,5 +57,23 @@ public class FlightSchedule {
     }
   }
 
+  public Seat reserveSeat(Passenger passenger) {
+    for (int i = 0; i < rows.length; i++) {
+      Seat[] seats = rows[i].getSeats();
+      for (int j = 0; j < seats.length; j++) {
+        if (!seats[j].isBooked()) {
+          seats[j].setPassenger(passenger);
+          seats[j].setBooked(true);
+          return seats[j];
+        }
+      }
+    }
+    return null;
+  }
+
+  public void cancelReservation(Passenger passenger) {
+    passenger.getSeat().setBooked(false);
+    passenger.setSeat(null);
+  }
 
 }

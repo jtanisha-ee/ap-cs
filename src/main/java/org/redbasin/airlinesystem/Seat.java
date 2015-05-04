@@ -1,3 +1,9 @@
+/*
+ * Copyright (C) Tanisha  - All Rights Reserved.
+ * Unauthorized copying of this file, via any medium is strictly prohibited.
+ * Proprietary and confidential.
+ */
+
 package org.redbasin.airlinesystem;
 
 public class Seat {
@@ -5,6 +11,7 @@ public class Seat {
   private int position;
   private Row row;
   private boolean booked = false;
+  private Passenger passenger;
 
 
   public boolean isBooked() {
@@ -30,6 +37,10 @@ public class Seat {
   public void setBooked(boolean booked) {
     this.booked = booked;
   }
+
+  public void setPassenger(Passenger passenger) { this.passenger = passenger; }
+
+  public Passenger getPassenger() { return passenger; };
 
   /**
    * This could seat 9A, or 9B, so the position is A or B etc.
