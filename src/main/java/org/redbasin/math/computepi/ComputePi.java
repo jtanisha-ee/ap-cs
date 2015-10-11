@@ -14,7 +14,7 @@ package org.redbasin.math.computepi;
  * Compare this with 50 digits of pi:
  *
  * 3.1415926535897932384626433832795028841971693993751
- *
+ * @see <a href="https://en.wikipedia.org/wiki/Approximations_of_%CF%80">Approximations to Pi</a>
  * See what level of accuracy you get with double precision.
  *
  * @author tanisha on 10/11/15.
