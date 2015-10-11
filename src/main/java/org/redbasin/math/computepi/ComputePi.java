@@ -4,7 +4,7 @@
  * Proprietary and confidential.
  */
 
-package org.redbasin.math;
+package org.redbasin.math.computepi;
 
 /**
  * We will use the formula:
