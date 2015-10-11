@@ -11,7 +11,7 @@ package org.redbasin.math.circle;
  */
 public class Circle {
   private static double PI = 3.14159;
-  private double radius = 0;
+  public double radius = 0;
 
   public Circle(double radius) {
     this.radius = radius;
@@ -23,5 +23,9 @@ public class Circle {
 
   public double circumference() {
     return 2 * PI * radius;
+  }
+
+  public boolean equals(Circle circle) {
+    return this.radius == circle.radius;
   }
 }
