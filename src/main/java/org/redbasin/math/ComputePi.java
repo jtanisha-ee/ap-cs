@@ -11,6 +11,12 @@ package org.redbasin.math;
  *
  * sqroot(12) * (1/1*3**0 - 1/3*3**1 + 1/5*3**2 - 1/7*3**3 + 1/9*3**4 - ...)
  *
+ * Compare this with 50 digits of pi:
+ *
+ * 3.1415926535897932384626433832795028841971693993751
+ *
+ * See what level of accuracy you get with double precision.
+ *
  * @author tanisha on 10/11/15.
  */
 public class ComputePi {
