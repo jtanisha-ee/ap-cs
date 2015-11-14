@@ -16,11 +16,13 @@ package org.redbasin.math.computepi;
  */
 public class ComputePiStepTwo {
   private double SOMETHING = 0;
+
   public double computeNthTerm(int n) {
     double negation = Math.pow(-1, n);
     double oddNum = 2*n + 1;
-    return negation*(1/(oddNum*Math.pow(3, n)));
+    return negation*(1/(oddNum*Math.pow(3, n-1)));
   }
+
   public double computeSeries(int numTerms) {
     // add your code here
     return SOMETHING;
