@@ -35,7 +35,7 @@ public class ComputePi {
     double currentSum = 0;
     for (int i = 0; i < numTerms; i++) {
       currentSum += computeNthTerm(i);
-      previousPi = currentPi;
+      //previousPi = currentPi;
       currentPi = root12 * currentSum;
       System.out.println("Current value of pi = " + currentPi);
       if (previousPi == currentPi) {
@@ -47,7 +47,7 @@ public class ComputePi {
   }
 
   public static void main(String[] args) {
-    int terms = 0;
+    int terms = 40;
     try {
       terms = new Integer(args[0]);
     } catch (NumberFormatException e) {
