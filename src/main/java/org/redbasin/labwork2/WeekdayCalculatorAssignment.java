@@ -54,7 +54,7 @@ public class WeekdayCalculatorAssignment {
     2. Divide the number of years since 1900 by 4. Put the quotient in a variable called total. For example, if the person was born in 1983, divide 83 by 4 and store 20 in total.
     3. Also add the number of years since 1900 to total.
     4. Add the day of the month to total.
-    5. Using the array month_offset(), find the "month offset" and add it to total.
+    5. Using the array monthOffset, find the "month offset" and add it to total.
     6. If the year is a leap year and if the month you are working with is either January or February, then subtract 1 from the total. You can use the function is_leap() provided to determine if the year is a leap year.
     7. Find the remainder when total is divided by 7. Pass this remainder to the array weekdayName you wrote to determine the day of the week the person was born.
     8. Finally, build up a single String value containing the whole date (day of week, month, day, year). You'll need to use the array monthName to show the month name rather than its number.
