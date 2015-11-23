@@ -7,6 +7,12 @@
 package org.redbasin.interfaces;
 
 /**
+ * Even though we send a MusicTeacher object to printSubject method of the TeacherCoordinator
+ * the MusicTeacher gets implicitly casted to a Teacher.
+ *
+ * Similarly when we send a MusicTeacher object to printInstrument method of the MusicianCoordinator
+ * the MusicTeacher gets implicitly casted to a Musician.
+ *
  * @author tanisha on 11/22/15.
  */
 public class MusicTeacherTest {

@@ -7,6 +7,8 @@
 package org.redbasin.interfaces;
 
 /**
+ * The TeacherCoordinator sees only the Teacher view of the MusicTeacher.
+ *
  * @author tanisha on 11/22/15.
  */
 public class TeacherCoordinator {

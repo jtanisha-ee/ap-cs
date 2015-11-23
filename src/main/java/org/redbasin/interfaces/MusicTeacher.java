@@ -7,6 +7,8 @@
 package org.redbasin.interfaces;
 
 /**
+ * A MusicTeacher is both a Musician and a Teacher.
+ *
  * @author tanisha on 11/22/15.
  */
 public class MusicTeacher implements Musician, Teacher {
