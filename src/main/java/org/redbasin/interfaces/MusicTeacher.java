@@ -23,7 +23,7 @@ public class MusicTeacher implements Musician, Teacher {
 
   @Override
   public Instrument getInstrument() {
-    return instrument;
+   return instrument;
   }
 
   @Override
