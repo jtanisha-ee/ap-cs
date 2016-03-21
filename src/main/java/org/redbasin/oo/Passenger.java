@@ -12,6 +12,6 @@ package org.redbasin.oo;
 public class Passenger {
   String name;   // name of passenger
   Flight flight;   // this is a dynamic object
-  PlaneSeat planeSeat;  // specific to this passenger
+  PlaneSeat seat;  // specific to this passenger
   FlightMeal flightMeal;
 }
