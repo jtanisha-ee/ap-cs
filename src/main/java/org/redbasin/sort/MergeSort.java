@@ -53,7 +53,7 @@ public class MergeSort {
     }
 
     public static void main(String[] args) {
-        int[] x = {9, 5, 1, 4, 3, 7, 2, 6};
+        int[] x = {9, 5, 1, 4, 3, 7, 2, 1};
         print(x);
         sort(x, 0, x.length - 1);
         print(x);
@@ -65,6 +65,4 @@ public class MergeSort {
         }
         System.out.println();
     }
-
-
 }

@@ -3,13 +3,8 @@ package org.redbasin.sort2016;
 /**
  * Created by jtanisha-ee on 4/9/16.
  */
-public class SelectionSortRandom {
+public class SelectionSort {
 
-    /**
-     * Sort ascending order.
-     * @param numbers
-     * @return
-     */
     public static int[] sort(int[] numbers) {
         int count = 0;
         for (int i = 0; i < numbers.length; i++) {
@@ -36,12 +31,12 @@ public class SelectionSortRandom {
     }
 
     public static void main(String[] args) {
-        int NUM = 20;
-        int[] numbers = new int[NUM];
-        for (int i = 0; i < NUM; i++) {
-            int r = (int)(Math.random()*100);
-            numbers[i] = r;
-        }
+        int[] numbers = {1, 2, 3, 4, 5, 6};
+        //int[] numbers = new int[7];
+        //for (int i = 0; i < 5; i++) {
+          //  int r = (int)(Math.random()*100);
+            //numbers[i] = r;
+        //}
 
         print(numbers);
         System.out.println();
