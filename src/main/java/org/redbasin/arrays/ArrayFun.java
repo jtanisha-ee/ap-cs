@@ -13,6 +13,7 @@ import java.util.Scanner;
  */
 public class ArrayFun {
 
+  // test commit
   // 1 dim array that stores weekdays
   static String[] weekdays = {"Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};
 

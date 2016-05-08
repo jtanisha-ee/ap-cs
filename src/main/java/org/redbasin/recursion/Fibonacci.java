@@ -9,7 +9,7 @@ package org.redbasin.recursion;
 /**
  * @author tanisha on 1/31/16.
  */
-public class Recursion {
+public class Fibonacci {
 
   public static int fib(int n) {
     if (n == 0) return 0;
