@@ -1,4 +1,4 @@
-package org.redbasin.keyboard;
+package org.redbasin.algorithms.keyboard;
 
 import java.util.HashMap;
 import java.util.Map;

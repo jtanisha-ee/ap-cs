@@ -4,7 +4,7 @@
  * Proprietary and confidential.
  */
 
-package org.redbasin.casting;
+package org.redbasin.castingbasics.casting;
 
 /**
  * It is necessary to learn how to do casting with an example that shows how the integer truncation can make it hard

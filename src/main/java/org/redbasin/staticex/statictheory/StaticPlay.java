@@ -1,4 +1,4 @@
-package org.redbasin.statictheory;
+package org.redbasin.staticex.statictheory;
 
 /**
  * Created by manojjoshi on 9/18/16.

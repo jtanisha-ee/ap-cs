@@ -10,7 +10,7 @@
  * and open the template in the editor.
  */
 
-package org.redbasin.statictheory;
+package org.redbasin.staticex.statictheory;
 
 /**
  * Understanding static variables.

@@ -10,7 +10,7 @@
  * and open the template in the editor.
  */
 
-package org.redbasin.cast;
+package org.redbasin.castingbasics.casting.cast;
 
 /**
  *

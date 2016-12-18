@@ -1,4 +1,4 @@
-package org.redbasin.substrings;
+package org.redbasin.stringtheory.substrings;
 
 /**
  * Created by manojjoshi on 8/28/16.

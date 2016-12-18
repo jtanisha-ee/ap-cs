@@ -4,7 +4,7 @@
  * Proprietary and confidential.
  */
 
-package org.redbasin.cast;
+package org.redbasin.castingbasics.casting.cast;
 
 /**
  * @author tanisha on 1/17/16.
