@@ -1,0 +1,60 @@
+/*
+ * Copyright (C) Tanisha  - All Rights Reserved.
+ * Unauthorized copying of this file, via any medium is strictly prohibited.
+ * Proprietary and confidential.
+ */
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package org.redbasin.labs.classwork1;
+
+/**
+ * Extract digits of a non-negative number from right-to-left and print them.
+ * Given 127, output should look like:
+ * 7
+ * 2
+ * 1
+ * @author mjoshi
+ */
+public class PrintNumbers2 {
+
+    public static final int BASE = 10;
+
+    public static void main(String[] args) {
+
+        // Pick an input number
+        int number = 427;
+
+        // Start with a divisor of 1, so we can multiply by BASE each time
+        // resulting in 10, 100, 1000, and so on.
+        int divisor = 1;
+
+        // If number is equal to 0, we do not use the loop below. We just print
+        // 0 and exit.
+        if (number == 0) {
+            System.out.println(number);
+            System.exit(0);
+        }
+
+        /* We keep dividing the number by the divisor until the value is 0
+           This is due to integer division where the fraction between 0 and 1
+           is truncated to 0
+           Inside the while loop we do a modulus to give us the remainder
+           For instance 723%10 is 3 which gives us first digit
+           723/10 = 72
+           72%10 = 2 which gives us the second digit
+           723/100 = 7
+           7%10 = 7 which gives us the third digit
+           723/1000 = 0, and we stop the while loop here
+        */
+        while (number/divisor != 0) {
+            int digit = number/divisor % BASE;
+            System.out.println(digit);
+            divisor *= BASE;
+        }
+    }
+}
