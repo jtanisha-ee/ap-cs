@@ -33,7 +33,7 @@ public class ArrayPlay {
         }
 
         //int[][] x = new int[2][4];   // 2rows, 4 columns
-        int[][] x = {
+        int[][] x = { // symmetric arrays
                       {8, 7, 3, 6},
                       {1, 3, 4, 8}
         };
