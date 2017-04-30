@@ -16,9 +16,13 @@ public class DrawSimpleCircle extends JFrame {
     }
 
     public void paint(Graphics g) {
-        g.setColor(Color.GREEN);
-        g.drawOval(100, 100, 200, 200);
-        g.fillOval(100, 100, 200, 200);
+        g.setColor(Color.BLUE);
+        for (int i = 0; i < 50; i++) {
+            //Color c = new Color(i, i, i);
+            g.setColor(new Color((int)(Math.random()*255), (int)(Math.random()*255), (int)(Math.random()*255)));
+            g.drawOval(40+i, 40+i, 40, 40);
+            g.fillOval(40+i, 40+i, 40, 40);
+        }
     }
 
     public static void main(String args[]) {
