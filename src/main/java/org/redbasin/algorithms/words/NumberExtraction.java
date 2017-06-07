@@ -1,4 +1,4 @@
-package org.redbasin.algorithms;
+package org.redbasin.algorithms.words;
 
 import java.util.ArrayList;
 import java.util.List;

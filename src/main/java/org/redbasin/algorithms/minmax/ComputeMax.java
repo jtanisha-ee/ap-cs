@@ -1,4 +1,4 @@
-package org.redbasin.algorithms;
+package org.redbasin.algorithms.minmax;
 
 /**
  * Created by manojjoshi on 8/21/16.

@@ -1,9 +1,9 @@
-package org.redbasin.algorithms;
+package org.redbasin.algorithms.binarysearch;
 
 /**
  * Created by manojjoshi on 7/31/16.
  */
-public class BinarySearch {
+public class BinarySearchAlt {
     public static char[] list = {'a', 'b', 'c', 'd', 'e', 'f', 'g'};
 
     /**

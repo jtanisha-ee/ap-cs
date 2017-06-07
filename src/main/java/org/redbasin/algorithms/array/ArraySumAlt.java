@@ -1,14 +1,15 @@
-package org.redbasin.algorithms;
+package org.redbasin.algorithms.array;
 
 /**
  * Created by manojjoshi on 9/18/16.
  */
-public class ArraySum {
+public class ArraySumAlt {
 
     public static int computeSum(int[] x) {
         int sum = 0;
         for (int i = 0; i < x.length; i++) {
-            sum = sum + x[i];
+            int sign = (int)Math.pow(-1, i);
+            sum = sum + sign*x[i];
         }
         return sum;
     }

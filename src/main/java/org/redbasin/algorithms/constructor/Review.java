@@ -1,4 +1,4 @@
-package org.redbasin.algorithms;
+package org.redbasin.algorithms.constructor;
 
 /**
  * Created by manojjoshi on 12/11/16.

@@ -1,4 +1,4 @@
-package org.redbasin.algorithms;
+package org.redbasin.algorithms.words;
 
 /**
  * Created by manojjoshi on 9/25/16.

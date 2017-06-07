@@ -1,15 +1,14 @@
-package org.redbasin.algorithms;
+package org.redbasin.algorithms.array;
 
 /**
  * Created by manojjoshi on 9/18/16.
  */
-public class ArraySumAlt {
+public class ArrayProduct {
 
-    public static int computeSum(int[] x) {
-        int sum = 0;
+    public static int computeProduct(int[] x) {
+        int sum = 1;
         for (int i = 0; i < x.length; i++) {
-            int sign = (int)Math.pow(-1, i);
-            sum = sum + sign*x[i];
+            sum = sum * x[i];
         }
         return sum;
     }
@@ -18,6 +17,6 @@ public class ArraySumAlt {
         int[] x = new int[4];   // declared on the heap
         int[] y = {1, 4, 2, 8, -3, 6};  // static initialization
 
-        System.out.println("sum = " + computeSum(y));
+        System.out.println("sum = " + computeProduct(y));
     }
 }

@@ -1,4 +1,4 @@
-package org.redbasin.algorithms;
+package org.redbasin.algorithms.array;
 
 /**
  * Created by manojjoshi on 9/18/16.

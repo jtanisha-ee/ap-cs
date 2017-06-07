@@ -1,9 +1,9 @@
-package org.redbasin.algorithms;
+package org.redbasin.algorithms.minmax;
 
 /**
  * Created by manojjoshi on 8/21/16.
  */
-public class MaxValue {
+public class MinValue {
 
     public static int MILLION = 1000000;
     public static int HUNDRED = 100;
@@ -11,15 +11,15 @@ public class MaxValue {
     public static int[] manyNumbers = new int[MILLION];
     public static int[] someNumbers = new int[HUNDRED];
 
-    public static int maxValue(int[] numbers) {
-        int max = 0;  // assume positive numbers
+    public static int minValue(int[] numbers) {
+        int min = Integer.MAX_VALUE;  // assume positive numbers
 
         for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] > max) {
-                max = numbers[i];
+            if (numbers[i] < min) {
+                min = numbers[i];
             }
         }
-        return max;
+        return min;
     }
 
     public static void fillRandom(int[] numbers) {
@@ -31,15 +31,15 @@ public class MaxValue {
     }
 
     public static void main(String[] args) {
-        System.out.println("Max value = " + maxValue(numbers));
+        System.out.println("Min value = " + minValue(numbers));
 
         fillRandom(manyNumbers);
 
-        System.out.println("Max value = " + maxValue(manyNumbers));
+        System.out.println("Min value = " + minValue(manyNumbers));
 
         fillRandom(someNumbers);
 
-        System.out.println("Max value = " + maxValue(someNumbers));
+        System.out.println("Min value = " + minValue(someNumbers));
 
     }
 }

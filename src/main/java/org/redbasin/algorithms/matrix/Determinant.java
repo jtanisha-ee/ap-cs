@@ -1,4 +1,4 @@
-package org.redbasin.algorithms;
+package org.redbasin.algorithms.matrix;
 
 /**
  * Created by jtanisha-ee on 8/7/16.
