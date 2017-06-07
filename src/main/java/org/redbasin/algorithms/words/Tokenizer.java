@@ -4,7 +4,7 @@
  * Proprietary and confidential.
  */
 
-package org.redbasin.arrays;
+package org.redbasin.algorithms.words;
 
 /**
  * Take a sentence and tokenize it by words. Put the words in an array.
