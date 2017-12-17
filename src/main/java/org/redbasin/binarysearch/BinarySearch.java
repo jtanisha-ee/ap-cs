@@ -12,6 +12,7 @@ public class BinarySearch {
         int middleOffset = -1;
         boolean found = false;
         while (!found) {
+            System.out.println("startOffset = " + startOffset + ", stopOffset = " + stopOffset);
             middleOffset = (startOffset + stopOffset)/2;
             int middle = inArr[middleOffset];
             if (candidate > middle) {
@@ -34,8 +35,8 @@ public class BinarySearch {
 
         // another way to define an array
         int[] y = {1, 3, 7, 14, 71, 85, 93, 107, 121, 134, 155, 186, 234, 275};
-        int ind = findNumber(y, 156);
-        System.out.println("index of 156 is " + ind);
+        int ind = findNumber(y, 85);
+        System.out.println("index of 85 is " + ind);
 
     }
 }

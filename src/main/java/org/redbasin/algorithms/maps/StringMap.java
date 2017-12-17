@@ -6,20 +6,20 @@ import java.util.List;
 /**
  * Created by manojjoshi on 8/13/17.
  */
-public class MyMap {
-    List<Integer> keys = new ArrayList<Integer>();
+public class StringMap {
+    List<String> keys = new ArrayList<String>();
     List<String> values = new ArrayList<String>();
 
-    public boolean exists(int key) {
+    public boolean exists(String key) {
         for (int i = 0; i < keys.size(); i++) {
-            if (key == keys.get(i)) {
+            if (key.equals(keys.get(i))) {
                 return true;
             }
         }
         return false;
     }
 
-    public void put(int key, String value) {
+    public void put(String key, String value) {
         if (!exists(key)) {
             keys.add(key);
             values.add(value);
@@ -30,10 +30,10 @@ public class MyMap {
         return keys.size();
     }
 
-    public String get(int key) {
+    public String get(String key) {
         int counter = 0;
         while (counter < keys.size()) {
-            if (key == keys.get(counter)) {
+            if (key.equals(keys.get(counter))) {
                 return values.get(counter);
             }
             counter++;
@@ -41,7 +41,7 @@ public class MyMap {
         return null;
     }
 
-    public int remove(int key) {
+    public int remove(String key) {
         return 0;  // TODO
     }
 }
